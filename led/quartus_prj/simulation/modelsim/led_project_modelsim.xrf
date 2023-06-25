@@ -1,0 +1,7 @@
+vendor_name = ModelSim
+source_file = 1, H:/Projects/Quartus/led/rtl/led.v
+source_file = 1, H:/Projects/Quartus/led/sim/tb_led.v
+source_file = 1, H:/Projects/Quartus/led/quartus_prj/db/led_project.cbx.xml
+design_name = led_project
+instance = comp, \key_in~I , key_in, led_project, 1
+instance = comp, \led_out~I , led_out, led_project, 1

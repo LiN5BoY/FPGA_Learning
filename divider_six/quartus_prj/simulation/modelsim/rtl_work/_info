@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/Projects/Quartus/divider_six/quartus_prj/simulation/modelsim
+vdivider_six
+!s110 1687316460
+!i10b 1
+!s100 ?`_6RfcAWF<bm9Q[zzTeV3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`z`7WQTcch6Uc7;UgYnE:3
+R0
+w1687314305
+8H:/Projects/Quartus/divider_six/rtl/divider_six.v
+FH:/Projects/Quartus/divider_six/rtl/divider_six.v
+!i122 0
+L0 1 30
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z4 !s108 1687316460.000000
+!s107 H:/Projects/Quartus/divider_six/rtl/divider_six.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Projects/Quartus/divider_six/rtl|H:/Projects/Quartus/divider_six/rtl/divider_six.v|
+!i113 0
+Z5 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+H:/Projects/Quartus/divider_six/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vtb_divider_six
+!s110 1687316461
+!i10b 1
+!s100 =X8J`l0mGKRVY?7WD_;]?2
+R1
+I:jeC@a@6l=6lSe<E0eTV@1
+R0
+w1687316315
+8H:/Projects/Quartus/divider_six/quartus_prj/../sim/tb_divider_six.v
+FH:/Projects/Quartus/divider_six/quartus_prj/../sim/tb_divider_six.v
+!i122 1
+L0 2 29
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 H:/Projects/Quartus/divider_six/quartus_prj/../sim/tb_divider_six.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Projects/Quartus/divider_six/quartus_prj/../sim|H:/Projects/Quartus/divider_six/quartus_prj/../sim/tb_divider_six.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+H:/Projects/Quartus/divider_six/quartus_prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6

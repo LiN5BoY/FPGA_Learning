@@ -1,0 +1,12 @@
+Fitter Status : Successful - Mon Jun 19 13:46:02 2023
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : full_adder
+Top-level Entity Name : full_adder
+Family : Cyclone
+Device : EP1C3T144C8
+Timing Models : Final
+Total logic elements : 2 / 2,910 ( < 1 % )
+Total pins : 5 / 104 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 0 / 59,904 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )

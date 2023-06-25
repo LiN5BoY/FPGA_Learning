@@ -1,0 +1,68 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/Projects/Quartus/flip_flop/quartus_prj/simulation/modelsim
+T_opt
+!s110 1687232416
+VcCZQz@4W2`=GQVa3AALzF0
+04 12 4 work tb_flip_flop fast 0
+=1-6c02e05aeca6-64911f9e-2b0-3578
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vflip_flop
+Z2 !s110 1687232414
+!i10b 1
+!s100 2@^Ye]2mU_N^efS>deeF_3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IdOE@NBf@dj`YZY7XkN@?o3
+R0
+w1687228905
+8H:/Projects/Quartus/flip_flop/rtl/flip_flop.v
+FH:/Projects/Quartus/flip_flop/rtl/flip_flop.v
+!i122 0
+L0 1 19
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1687232414.000000
+!s107 H:/Projects/Quartus/flip_flop/rtl/flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Projects/Quartus/flip_flop/rtl|H:/Projects/Quartus/flip_flop/rtl/flip_flop.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+H:/Projects/Quartus/flip_flop/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_flip_flop
+R2
+!i10b 1
+!s100 A>Q<j]jBdnEYk?IRHQVSQ3
+R3
+I_;nKWoZ@_4FL8bozUAk>z2
+R0
+w1687232362
+8H:/Projects/Quartus/flip_flop/quartus_prj/../sim/tb_flip_flop.v
+FH:/Projects/Quartus/flip_flop/quartus_prj/../sim/tb_flip_flop.v
+!i122 1
+L0 2 59
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 H:/Projects/Quartus/flip_flop/quartus_prj/../sim/tb_flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/Projects/Quartus/flip_flop/quartus_prj/../sim|H:/Projects/Quartus/flip_flop/quartus_prj/../sim/tb_flip_flop.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+H:/Projects/Quartus/flip_flop/quartus_prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

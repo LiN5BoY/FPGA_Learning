@@ -1,0 +1,12 @@
+Fitter Status : Successful - Fri Jun 16 11:45:48 2023
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : led_project
+Top-level Entity Name : led_project
+Family : Cyclone
+Device : EP1C3T144C8
+Timing Models : Final
+Total logic elements : 0 / 2,910 ( 0 % )
+Total pins : 2 / 104 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 0 / 59,904 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )

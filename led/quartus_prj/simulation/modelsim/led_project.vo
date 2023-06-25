@@ -1,0 +1,124 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version"
+
+// DATE "06/16/2023 11:45:52"
+
+// 
+// Device: Altera EP1C3T144C8 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module led_project (
+	key_in,
+	led_out);
+input 	key_in;
+output 	led_out;
+
+// Design Ports Information
+// led_out	=>  Location: PIN_57,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+// key_in	=>  Location: PIN_67,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("led_project_v.sdo");
+// synopsys translate_on
+
+wire \key_in~combout ;
+
+
+// Location: PIN_67,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+cyclone_io \key_in~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\key_in~combout ),
+	.regout(),
+	.padio(key_in));
+// synopsys translate_off
+defparam \key_in~I .input_async_reset = "none";
+defparam \key_in~I .input_power_up = "low";
+defparam \key_in~I .input_register_mode = "none";
+defparam \key_in~I .input_sync_reset = "none";
+defparam \key_in~I .oe_async_reset = "none";
+defparam \key_in~I .oe_power_up = "low";
+defparam \key_in~I .oe_register_mode = "none";
+defparam \key_in~I .oe_sync_reset = "none";
+defparam \key_in~I .operation_mode = "input";
+defparam \key_in~I .output_async_reset = "none";
+defparam \key_in~I .output_power_up = "low";
+defparam \key_in~I .output_register_mode = "none";
+defparam \key_in~I .output_sync_reset = "none";
+// synopsys translate_on
+
+// Location: PIN_57,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 24mA
+cyclone_io \led_out~I (
+	.datain(\key_in~combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.padio(led_out));
+// synopsys translate_off
+defparam \led_out~I .input_async_reset = "none";
+defparam \led_out~I .input_power_up = "low";
+defparam \led_out~I .input_register_mode = "none";
+defparam \led_out~I .input_sync_reset = "none";
+defparam \led_out~I .oe_async_reset = "none";
+defparam \led_out~I .oe_power_up = "low";
+defparam \led_out~I .oe_register_mode = "none";
+defparam \led_out~I .oe_sync_reset = "none";
+defparam \led_out~I .operation_mode = "output";
+defparam \led_out~I .output_async_reset = "none";
+defparam \led_out~I .output_power_up = "low";
+defparam \led_out~I .output_register_mode = "none";
+defparam \led_out~I .output_sync_reset = "none";
+// synopsys translate_on
+
+endmodule

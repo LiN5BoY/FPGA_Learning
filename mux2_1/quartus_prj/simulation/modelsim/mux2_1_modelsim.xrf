@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, H:/Projects/Quartus/mux2_1/sim/tb_mux2_1.v
+source_file = 1, H:/Projects/Quartus/mux2_1/rtl/mux2_1.v
+source_file = 1, H:/Projects/Quartus/mux2_1/quartus_prj/db/mux2_1.cbx.xml
+design_name = mux2_1
+instance = comp, \sel~I , sel, mux2_1, 1
+instance = comp, \in2~I , in2, mux2_1, 1
+instance = comp, \in1~I , in1, mux2_1, 1
+instance = comp, \out~0 , out~0, mux2_1, 1
+instance = comp, \out~I , out, mux2_1, 1

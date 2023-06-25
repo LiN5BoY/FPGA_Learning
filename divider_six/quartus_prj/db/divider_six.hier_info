@@ -1,0 +1,12 @@
+|divider_six
+sys_clk => clk_flag~reg0.CLK
+sys_clk => cnt[0].CLK
+sys_clk => cnt[1].CLK
+sys_clk => cnt[2].CLK
+sys_rst_n => cnt[0].ACLR
+sys_rst_n => cnt[1].ACLR
+sys_rst_n => cnt[2].ACLR
+sys_rst_n => clk_flag~reg0.ACLR
+clk_flag <= clk_flag~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
